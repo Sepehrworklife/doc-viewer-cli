@@ -24,4 +24,4 @@ It need to be do something first on the project :)
 
 # Contribute
 You want to contribute? thats awesome :) \
-**[See Instructions]()**
+**[See Instructions](https://github.com/Sepehrworklife/doc-viewer-cli/blob/master/COUNTRIBUTING.md)**
