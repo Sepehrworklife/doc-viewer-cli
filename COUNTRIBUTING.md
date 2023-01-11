@@ -5,6 +5,9 @@ First of all I'm very thankfull to you guys all for concidering to contribute to
 ## Developing
 If you already cloned the repository and you know that you need to deep dive in the code, here are some guidelines to set up your environment.
 <br>
+### :red_circle: IMPORTANT! :red_circle:
+Make sure that after issue has been assigned to you create branch for that issue after that do your changes and then make a pull request from created branch to the master.
+<br>
 
 ### Virtual environment with `venv¶`:
 You can create a virtual environment in a directory using Python's venv module:
@@ -30,15 +33,12 @@ Make sure you have the latest pip version on your virtual environment to avoid e
 ```
 $ python -m pip install --upgrade pip
 ```
-<br>
-
 
 ### Install packages
 Use below pip command so you retreive required packages:
 ```
 $ pip install -r /path-to-project/requirements/development.txt
 ```
-<br>
 
 ### Run application
 First of all change directory to `src`:
