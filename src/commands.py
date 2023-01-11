@@ -1,8 +1,9 @@
-from typer import prompt, Typer
+from typer import prompt, Typer, FileTextWrite, Option
 from constants import SEC_FILE_NAME
 from rich import print
 
 app = Typer()
+
 
 @app.command()
 def init():
@@ -12,9 +13,6 @@ def init():
     print(
         "[bold green]Success![/bold green] Github personal token has been set successfully! :boom:"
     )
-
-
-
 
 
 def register_commands(app: Typer):
