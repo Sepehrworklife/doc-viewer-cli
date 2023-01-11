@@ -1,9 +1,11 @@
-import typer
+from typer import Typer
+from commands import register_commands
 
-
-def main(name: str):
-    print(f"Hello {name}")
+# Initial Application
+app = Typer()
+# Add all command to the application
+register_commands(app=app)
 
 
 if __name__ == "__main__":
-    typer.run(main)
+    app()
