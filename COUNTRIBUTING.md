@@ -32,8 +32,31 @@ $ python -m pip install --upgrade pip
 ```
 <br>
 
+
 ### Install packages
 Use below pip command so you retreive required packages:
 ```
 $ pip install -r /path-to-project/requirements/development.txt
 ```
+<br>
+
+### Run application
+First of all change directory to `src`:
+```
+$ cd /path-to-project/src
+```
+After that simply run application within you command line:
+```
+$ python application.py [OPTIONS] [ARGUMENTS]
+```
+If you dont have a clue for arguments or options use:
+```
+$ python application.py --help
+```
+---
+## Testing
+For testing the project simply use code below at the root of project:
+```
+$ make test
+```
+p.s: Test cases are not complete yet.
