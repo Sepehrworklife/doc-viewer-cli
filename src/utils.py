@@ -1,5 +1,5 @@
 import os
-from constants import SEC_FILE_NAME
+from constants import SEC_FILE_NAME, MESSAGE_ERROR_IF_INITIAL_NOT_HAPPEND
 from rich import print
 from typer import Exit
 from functools import wraps
@@ -19,8 +19,7 @@ def is_initial_happend(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
         if not os.path.exists(SEC_FILE_NAME):
-            # TODO: Fix error message
-            print("[bold red]ERROR![/bold red] [red] You haven't set your github personal token [/red]! run: xxxxx")
+            print(MESSAGE_ERROR_IF_INITIAL_NOT_HAPPEND)
             raise Exit()
         func(*args, **kwargs)
     return wrapper
