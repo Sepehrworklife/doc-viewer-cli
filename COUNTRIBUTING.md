@@ -5,8 +5,9 @@ First of all I'm very thankfull to you guys all for concidering to contribute to
 ## Developing
 If you already cloned the repository and you know that you need to deep dive in the code, here are some guidelines to set up your environment.
 <br>
-### :red_circle: IMPORTANT! :red_circle:
-Make sure that after issue has been assigned to you create branch for that issue after that do your changes and then make a pull request from created branch to the master.
+### 🔵 IMPORTANT! 🔵
+Make sure that after issue has been assigned to you fork the repository then create branch for that issue after that do your changes and then make a pull request from created branch to the master. \
+🔴 Never ever work on master branch 🔴
 <br>
 
 ### Virtual environment with `venv¶`:
