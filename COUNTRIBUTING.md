@@ -60,4 +60,5 @@ For testing the project simply use code below at the root of project:
 ```
 $ make test
 ```
-p.s: Test cases are not complete yet.
+p.s: Test cases are not complete yet. \
+p.s: Do not forget write test case for your changes. (If you can, if you can not there is no problem someone else will do it :smile:)
