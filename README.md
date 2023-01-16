@@ -5,6 +5,7 @@ CLI with ability that you can search through your favorite framework document.
 
 # Framework/Libraries that CLI supports:
 - [FastAPI](https://fastapi.tiangolo.com/) (Working on it) :large_blue_circle:
+- [Typer](https://typer.tiangolo.com/) (Soon) :large_blue_circle:
 - [Django](https://www.djangoproject.com/) (Soon) :red_circle:
 - [Flask](https://flask.palletsprojects.com/) (Soon) :red_circle:
 

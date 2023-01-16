@@ -11,3 +11,10 @@ HTTP_STATUS: Dict = {
     "NOT_FOUND_404": 404,
     "FORBIDDEN_403": 403,
 }
+
+
+## Messages
+# TODO: Fix error message
+MESSAGE_ERROR_IF_INITIAL_NOT_HAPPEND: str = "[bold red]ERROR![/bold red] [red] You haven't set your github personal token [/red]! run: xxxxx"
+MESSAGE_SUCCESS_INITIAL: str = "[bold green]Success![/bold green] Github personal token has been set successfully! :boom:"
+
